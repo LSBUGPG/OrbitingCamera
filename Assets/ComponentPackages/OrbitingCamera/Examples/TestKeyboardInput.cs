@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class TestInput : MonoBehaviour
+public class TestKeyboardInput : MonoBehaviour
 {
     Orbit orbit;
 

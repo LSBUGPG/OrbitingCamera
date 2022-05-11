@@ -19,9 +19,9 @@ Included in this package is an example scene to demonstrate the orbiting behavio
 - create a target object
 - add the `Orbit` script to the camera object
 - drag the target object into the `target` slot on the camera
-- add the `TestInput` script to the camera
+- add the `TestKeyboardInput` or `TestMouseInput` script to the camera
 - run the game to test
 
-The camera should orbit the cube if you press the direction keys or `WASD` keys. If you press `Space` it will switch between auto level mode and free rotation.
+The camera should orbit the cube if you press the direction keys or `WASD` keys with `TestKeyboardInput` or if you move the mouse with `TestMouseInput`. If you press `Space` with `TestKeyboardInput` it will switch between auto level mode and free rotation.
 
-The `TestInput` script demonstrates how to send the input from the `Input` system to the orbit script.
+The `TestKeyboardInput` and `TestMouseInput` scripts demonstrate how to send the input from the `Input` system to the orbit script.
