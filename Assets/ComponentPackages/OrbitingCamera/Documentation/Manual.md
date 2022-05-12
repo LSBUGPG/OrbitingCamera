@@ -1,6 +1,6 @@
 # Orbiting Behaviour
 
-Add the script `Orbit.cs` to the object that you want to orbit. Set the object that you want it to orbit as the `target` of the orbit script.
+Add the script `Orbit.cs` to the camera that you want to orbit. Set the object that you want it to orbit as the `target` of the orbit script.
 
 The default speed of the orbit is 90 degrees per second. You can change this with the `speed` parameter.
 
